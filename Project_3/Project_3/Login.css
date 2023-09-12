@@ -1,0 +1,169 @@
+﻿
+.hero {
+    min-height: 100vh;
+    width: 100%;
+    background-color: #000;
+    background-image: url('../images/tumblr_o6q8ykjhwp1tuvbmzo5_500.gif');
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-attachment: fixed;
+    color: #fff;
+    height: 1497px;
+}
+
+.login-box {
+    position: fixed;
+    top: 135px;
+    margin-left: 77px;
+    margin-right: 300px;
+    width: 399px;
+    height: 293px;
+    transform: translate(-50%, -50%);
+    box-sizing: border-box;
+    box-shadow: 0 15px 25px rgba(0,0,0,.6);
+    border-radius: 10px;
+}
+
+
+    .login-box h2 {
+        margin: 0 0 30px;
+        padding: 0;
+        color: #fff;
+        text-align: center;
+    }
+
+    .login-box .user-box {
+        position: absolute;
+        top: 64px;
+        left: 25px;
+        height: 277px;
+        width: 339px;
+    }
+
+        .login-box .user-box input {
+            width: 33%;
+            padding: 10px 0;
+            font-size: 16px;
+            color: #fff;
+            margin-bottom: 30px;
+            border-bottom: 1px solid #fff;
+            outline: none;
+            background: transparent;
+            border-left-style: none;
+            border-left-color: inherit;
+            border-left-width: medium;
+            border-right-style: none;
+            border-right-color: inherit;
+            border-right-width: medium;
+            border-top-style: none;
+            border-top-color: inherit;
+            border-top-width: medium;
+        }
+
+        .login-box .user-box label {
+            position: absolute;
+            top: 0;
+            left: 0;
+            padding: 10px 0;
+            font-size: 16px;
+            color: #fff;
+            pointer-events: none;
+            transition: .5s;
+        }
+
+        .login-box .user-box input:focus ~ label,
+        .login-box .user-box input:valid ~ label {
+            top: -20px;
+            left: 0;
+            color: #03e9f4;
+            font-size: 12px;
+        }
+
+.button {
+    position: absolute;
+    top: 50%;
+    background-color: #0a0a23;
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    padding: 15px;
+    min-height: 30px;
+    min-width: 120px;
+}
+
+    .button:hover {
+        background-color: #555;
+    }
+
+
+h2 {
+    margin: 0 0 30px;
+    padding: 0;
+    color: #fff;
+    text-align: center;
+}
+
+#Menu1 {
+    border: none;
+    background-color: #f2f2f2;
+    font-size: 16px;
+}
+
+    #Menu1 ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+    }
+
+    #Menu1 li {
+        display: inline-block;
+        position: relative;
+    }
+
+    #Menu1 a {
+        display: block;
+        padding: 12px 16px;
+        text-decoration: none;
+        color: #000;
+    }
+
+        #Menu1 a:hover {
+            background-color: #ddd;
+        }
+
+    #Menu1 ul ul {
+        display: none;
+        position: absolute;
+        top: 100%;
+        left: 0;
+        background-color: #f2f2f2;
+        z-index: 999;
+    }
+
+        #Menu1 ul ul li {
+            display: block;
+            width: 200px;
+        }
+
+        #Menu1 ul ul a {
+            padding: 10px;
+        }
+
+    #Menu1 ul li:hover ul {
+        display: block;
+    }
+h2 {
+    padding: 0;
+    color: #fff;
+    text-align: center;
+    width: 244px;
+    z-index: 1;
+    left: 535px;
+    top: 24px;
+    position: fixed;
+    height: 29px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0;
+}

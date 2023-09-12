@@ -1,0 +1,89 @@
+﻿body {
+}
+.hero {
+    background: #000 url('../images/R.gif') no-repeat fixed 50% top;
+    min-height: 100vh;
+    width: 162%;
+    background-size: 100%;
+    color: #fff;
+    height: 1497px;
+}
+
+#Menu1 {
+    border: none;
+    background-color: #f2f2f2;
+    font-size: 16px;
+}
+
+    #Menu1 ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+    }
+
+    #Menu1 li {
+        display: inline-block;
+        position: relative;
+    }
+
+    #Menu1 a {
+        display: block;
+        padding: 12px 16px;
+        text-decoration: none;
+        color: #000;
+    }
+
+        #Menu1 a:hover {
+            background-color: #ddd;
+        }
+
+    #Menu1 ul ul {
+        display: none;
+        position: absolute;
+        top: 100%;
+        left: 0;
+        background-color: #f2f2f2;
+        z-index: 999;
+    }
+
+        #Menu1 ul ul li {
+            display: block;
+            width: 200px;
+        }
+
+        #Menu1 ul ul a {
+            padding: 10px;
+        }
+
+    #Menu1 ul li:hover ul {
+        display: block;
+    }
+
+.row {
+    width: 74%;
+    float: left;
+    padding: 10px;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    background: transparent;
+    }
+
+.col {
+    border: 1px solid black;
+    padding: 10px;
+}
+
+
+h2 {
+    margin: 0 auto;
+    padding: 0;
+    color: #fff;
+    text-align: center;
+    width: 244px;
+    z-index: 1;
+    left: 694px;
+    top: -6px;
+    position: fixed;
+    height: 29px;
+}

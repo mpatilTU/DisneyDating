@@ -1,0 +1,86 @@
+﻿
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins', sans-serif;
+}
+
+.hero {
+    min-height: 100vh;
+    width: 100%;
+    background-color: #000;
+    background-image: url('../images/tumblr_bea4417ef3ddb310c71163a75a45098f_ef5bb9f0_500.gif');
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-attachment: fixed;
+    color: #fff;
+    height: 1497px;
+}
+html {
+    height: 100%;
+}
+
+h2 {
+    margin: 0 0 30px 0px;
+    padding: 0;
+    color: #fff;
+    text-align: center;
+    width: 203px;
+    z-index: 1;
+    left: 456px;
+    top: 6px;
+    position: absolute;
+    height: 29px;
+}
+#Menu1 {
+    border: none;
+    background-color: #f2f2f2;
+    font-size: 16px;
+}
+
+    #Menu1 ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+    }
+
+    #Menu1 li {
+        display: inline-block;
+        position: relative;
+    }
+
+    #Menu1 a {
+        display: block;
+        padding: 12px 16px;
+        text-decoration: none;
+        color: #000;
+    }
+
+        #Menu1 a:hover {
+            background-color: #ddd;
+        }
+
+    #Menu1 ul ul {
+        display: none;
+        position: absolute;
+        top: 100%;
+        left: 0;
+        background-color: #f2f2f2;
+        z-index: 999;
+    }
+
+        #Menu1 ul ul li {
+            display: block;
+            width: 200px;
+        }
+
+        #Menu1 ul ul a {
+            padding: 10px;
+        }
+
+    #Menu1 ul li:hover ul {
+        display: block;
+    }
